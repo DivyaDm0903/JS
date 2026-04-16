@@ -30,3 +30,11 @@ function show(){
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
     
+{
+    let a= "Im a";
+    const b = "Im B";
+    var c = "Im C";
+    a="AA"
+    b="BB"
+    c="CC"
+}
